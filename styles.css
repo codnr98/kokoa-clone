@@ -1,84 +1,62 @@
 body {
+    height: 100vh;
+    background-color: whitesmoke;
     display: flex;
-    background-color: rgb(245, 245, 245);
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    
 }
-#title {
-    width: 100vh;
-    margin-top: 60px;
-    margin-bottom: 40px;         
-    font-size: 50px;
-    font-weight: 600;
+header {
+    width: 100vw;
+    height: 100px;
+    font-size: xx-large;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-#cards-top {
-    height: 520px;
-    width: 640px;
+.top {
+    width: 600px;
+    height: 550px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
 }
-#cards-bottom {
-    height: 520px;
-    width: 640px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-wrap: wrap;
-}
-#tomato {
-    height: 500px;
-    width: 300px;
-    margin: 10;
+.top > :first-child {
     background-color: tomato;
-    border: 8px solid white;
-    position: relative;
 }
-#teal {
-    height: 500px;
-    width: 300px;
-    margin: 10;
+.top > :last-child {
     background-color: teal;
-    border: 8px solid white;
-    position: relative;
 }
-#burlywood {
-    height: 500px;
-    width: 300px;
-    margin: 10;
+.bottom {
+    width: 600px;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom > :first-child {
     background-color: burlywood;
-    border: 8px solid white;
-    position: relative;
 }
-#thistle {
-    height: 500px;
-    width: 300px;
-    margin: 10;
+.bottom > :last-child {
     background-color: thistle;
-    border: 8px solid white;
+}
+.card {
+    width: 615px;
+    margin: 5px;
+    border: 5px solid white;
     position: relative;
 }
-.tag {
-    height: 180px;
-    width: 300px;
+.color {
+    width: 100%;
+    height: 150px;
     background-color: white;
     position: absolute;
-    top: 80px;
+    top: 70px;
 }
-.name {
-    font-size: 35px;
+.colorname {
+    font-size: x-large;
     position: absolute;
     top: 30px;
-    left: 5px;
 }
-.information {
-    font-size: 20px;
+.colorcode {
+    font-size: large;
     position: absolute;
-    top: 100px;
-    left: 5px;
+    top: 70px;
 }
