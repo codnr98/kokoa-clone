@@ -1,0 +1,30 @@
+@import "reset.css";
+@import "header.css";
+@import "search-bar.css";
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+}
+
+.star-ratig {
+}
+
+.star-rating__star {
+  background: gold;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
