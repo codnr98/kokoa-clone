@@ -1,0 +1,42 @@
+.popular {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 25px;
+}
+
+.popular h2 {
+  margin-bottom: 25px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.popular-photo {
+  width: 150px;
+  height: 180px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.popular div {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.popular-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.popular-info h3 {
+  width: 30%;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0px;
+  margin-bottom: 20px;
+}
+
+.popular-info p {
+  width: 30%;
+  font-weight: 300;
+}

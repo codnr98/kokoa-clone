@@ -1,0 +1,49 @@
+.top-adventures {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-adventures h2 {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 25px;
+}
+
+.top-adventures__books {
+  display: flex;
+  margin: 0px 25px;
+}
+
+.top-adventures__photo {
+  width: 100px;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.top-adventures__star-rating {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.top-adventures__star-rating .star-rating__star {
+  background: gold;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin: 0px;
+}
